@@ -1,0 +1,160 @@
+﻿==========================================================================
+ROTEIRO DE APRESENTAÇÃO (ATÉ 10 MINUTOS)
+PROJETO: LGPD E A SEGURANÇA DE DADOS EM PEQUENAS EMPRESAS
+==========================================================================
+
+Este roteiro serve como guia de fala para a apresentação de 10 minutos do projeto de iniciação científica. O tempo estimado para cada slide está indicado ao lado.
+
+--------------------------------------------------------------------------
+SLIDE 1: CAPA (Tempo estimado: 0:00 - 1:00)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* Título: LGPD e a Segurança de Dados em Pequenas Empresas: Desafios, Vulnerabilidades e Boas Práticas para Conformidade e Proteção da Informação
+* Subtítulo: Projeto de Iniciação Científica
+* Área do Conhecimento: Ciência da Computação – Sistemas de Informação
+* Instituição: IFSP
+
+[O que falar - Roteiro]
+"Olá a todos. Meu nome é [Seu Nome] e hoje vou apresentar o projeto de iniciação científica intitulado 'LGPD e a Segurança de Dados em Pequenas Empresas'. Este projeto está inserido na área de Ciência da Computação, especificamente em Sistemas de Informação, e visa analisar os desafios operacionais, técnicos e de governança que as micro e pequenas empresas enfrentam ao tentar se adequar à Lei Geral de Proteção de Dados."
+
+--------------------------------------------------------------------------
+SLIDE 2: RELEVÂNCIA DO TEMA (Tempo estimado: 1:00 - 2:00)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* A Exigência da LGPD: Lei nº 13.709/2018 é universal e obrigatória para qualquer porte de empresa.
+* A Vulnerabilidade das Pequenas e Médias Empresas: Baixo orçamento de TI, falta de especialistas, ausência de políticas formais de segurança.
+* Riscos Reais: Sanções administrativas da ANPD, sequestro de dados (ransomware) e danos à reputação.
+
+[O que falar - Roteiro]
+"A LGPD entrou em vigor e não faz distinção de porte: se a empresa coleta ou armazena dados de clientes ou colaboradores, deve estar em conformidade. Contudo, as micro e pequenas empresas enfrentam um cenário desfavorável: elas têm menos capital para investir em segurança, não possuem equipes dedicadas de TI e são frequentemente alvos de ataques cibernéticos simples, mas devastadores. Investigar essa realidade é urgente para evitar que essas empresas sofram multas ou vazamentos de dados que possam inviabilizar o negócio."
+
+--------------------------------------------------------------------------
+SLIDE 3: FUNDAMENTAÇÃO TEÓRICA (Tempo estimado: 2:00 - 3:00)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* Pilares da Segurança da Informação: Confidencialidade, Integridade e Disponibilidade.
+* Controles de Proteção: Medidas técnicas (criptografia, firewalls, backups) e administrativas (políticas internas).
+* Fator Humano: Importância da conscientização e treinamento de colaboradores.
+
+[O que falar - Roteiro]
+"A fundamentação teórica do projeto baseia-se nos princípios da LGPD e nos pilares clássicos da Segurança da Informação: Confidencialidade, Integridade e Disponibilidade. A conformidade exige a implementação de salvaguardas técnicas (como criptografia e controle de acessos rígidos) e administrativas (como políticas internas e termos de confidencialidade), estabelecendo uma governança de dados robusta mesmo em ambientes com poucos recursos."
+
+--------------------------------------------------------------------------
+SLIDE 4: ATORES E FLEXIBILIZAÇÃO (Tempo estimado: 3:00 - 4:00)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* Os Agentes de Tratamento: Controlador, Operador e Titular.
+* Resolução CD/ANPD nº 2/2022: Regulamento especial com facilidades para pequenas e médias empresas.
+* Dispensa de DPO: Desobrigação de contratar Encarregado formal (canal de comunicação exigido).
+* Prazos em Dobro: Tempo duplicado para responder a titulares e relatórios simplificados.
+
+[O que falar - Roteiro]
+"No quarto slide, abordamos os atores da LGPD. Temos o titular, o controlador e o operador. O ponto crítico aqui para as pequenas empresas é a figura do Encarregado, ou DPO. Contratar um DPO dedicado seria financeiramente inviável para uma pequena ou média empresa. Felizmente, a Resolução nº 2 de 2022 da ANPD trouxe flexibilizações cruciais: dispensa da contratação obrigatória do DPO (desde que haja um canal de contato) e prazos em dobro para responder às solicitações dos titulares de dados, o que viabiliza a conformidade na prática."
+
+--------------------------------------------------------------------------
+SLIDE 5: SANÇÕES E INCIDENTES (Tempo estimado: 4:00 - 5:00)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* Sanções da ANPD: De advertências a multas de até 2% do faturamento (teto de R$ 50M).
+* Paralisação: Bloqueio ou exclusão do banco de dados (interrupção do negócio).
+* Sequestro de Dados: Risco de invasão por ransomware e paralisação operacional.
+* Dano de Imagem: Quebra de confiança de clientes e quebra de contratos comerciais.
+
+[O que falar - Roteiro]
+"Mais do que multas pesadas de até 2% do faturamento — que são uma grande preocupação teórica —, as pequenas e médias empresas enfrentam riscos práticos gigantescos. O principal deles é o ransomware, ou sequestro de dados, que pode paralisar totalmente a empresa em poucas horas. Além disso, existe o dano reputacional: quando uma empresa vaza dados, ela perde a confiança de seus clientes e parceiros comerciais de grande porte, que exigem conformidade contratual. Por isso, a cibersegurança é uma necessidade de sobrevivência de mercado."
+
+--------------------------------------------------------------------------
+SLIDE 6: PROBLEMA E OBJETIVOS (Tempo estimado: 5:00 - 6:00)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* O Problema: Como pequenas empresas podem estruturar um programa de conformidade à LGPD e segurança da informação de maneira economicamente viável e eficiente?
+* Objetivo Geral: Analisar os desafios enfrentados por pequenas empresas na adequação à LGPD, identificando suas vulnerabilidades e propondo um guia prático de adequação de baixo custo.
+
+[O que falar - Roteiro]
+"O nosso problema central é: como alinhar orçamento limitado com a alta exigência legal e técnica da LGPD? Para responder a isso, nosso objetivo geral é propor um modelo prático de conformidade. Queremos analisar o nível atual de maturidade dessas organizações, identificar onde elas mais falham e criar um material didático e aplicável de boas práticas que sirva de roteiro para esses empreendedores."
+
+--------------------------------------------------------------------------
+SLIDE 7: METODOLOGIA DE PESQUISA (Tempo estimado: 6:00 - 7:00)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* Caráter da Pesquisa: Exploratória e descritiva.
+* Abordagem: Mista (Qualitativa e Quantitativa).
+* Etapas: Revisão bibliográfica, análise documental, aplicação de questionários, entrevistas de campo, mapeamento de riscos e elaboração de guia prático.
+
+[O que falar - Roteiro]
+"Nossa metodologia é dividida em etapas exploratórias e descritivas. Começamos com uma revisão bibliográfica aprofundada para entender as diretrizes atuais. Em seguida, faremos um estudo empírico com gestores de pequenas empresas, gerando dados tanto quantitativos quanto qualitativos que subsidiarão a criação de um guia prático de adequação."
+
+--------------------------------------------------------------------------
+SLIDE 8: MÉTODO DE COLETA DE DADOS (Tempo estimado: 7:00 - 8:30)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* Coleta Secundária: Revisão de literatura e análise de incidentes/relatórios oficiais da ANPD.
+* Coleta Primária (Campo):
+  1. Questionário quantitativo estruturado (Google Forms) para avaliar a infraestrutura atual de segurança das empresas.
+  2. Entrevistas qualitativas semiestruturadas com proprietários de pequenas e médias empresas para captar dificuldades reais.
+* Aspectos Éticos: Termo de Consentimento Livre e Esclarecido (TCLE), anonimização de dados pessoais e conformidade ética com a LGPD.
+
+[O que falar - Roteiro]
+"A coleta de dados é um dos pilares do projeto. Ela ocorrerá em duas frentes. A primeira é a coleta secundária de relatórios de incidentes. A segunda, e mais importante, é a primária: aplicaremos questionários objetivos e entrevistas semiestruturadas com proprietários e gerentes de pequenas e médias empresas. Avaliaremos o conhecimento deles sobre a lei e os controles de segurança adotados. Todos os dados coletados passarão por um processo de anonimização e os participantes assinarão um termo de consentimento, garantindo que a própria pesquisa respeite a LGPD."
+
+--------------------------------------------------------------------------
+SLIDE 9: CRONOGRAMA DE TRABALHO (Tempo estimado: 8:30 - 9:30)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* Meses 1-2: Revisão Teórica e Planejamento.
+* Meses 3-4: Criação e teste piloto do questionário.
+* Mês 5: Coleta de dados em campo e Relatório Parcial.
+* Meses 6-7: Análise dos dados e mapeamento de vulnerabilidades.
+* Meses 8-9: Elaboração do Guia Prático de Boas Práticas.
+* Mês 10: Relatório Final e publicação científica.
+
+[O que falar - Roteiro]
+"Nosso cronograma está planejado para uma execução fluida de 10 meses. Dedicamos os primeiros meses à consolidação teórica e ao planejamento dos instrumentos. O meio do projeto focará na aplicação prática e coleta de dados, enquanto os meses finais serão voltados para a análise, modelagem do guia prático e redação dos relatórios científicos."
+
+--------------------------------------------------------------------------
+SLIDE 10: O GUIA PRÁTICO PROPOSTO (Tempo estimado: 9:30 - 10:30)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* Controles Administrativos: Mapeamento de dados (Data Mapping), templates de Políticas de Privacidade e Termos de Consentimento, e conscientização contra engenharia social.
+* Controles Técnicos: Autenticação de dois fatores (MFA) obrigatória, gerenciadores de senhas seguros e backups automatizados sob o princípio 3-2-1.
+
+[O que falar - Roteiro]
+"Este slide detalha o coração da nossa proposta: o Guia Prático de Baixo Custo. Ele se divide em duas frentes. Administrativamente, ensina as pequenas e médias empresas a mapear seus dados através de um inventário de processos e fornece templates de conformidade prontos para uso. Tecnicamente, foca em medidas sem custo ou de baixíssimo custo que reduzem drasticamente os incidentes, tais como a obrigatoriedade da autenticação multifator (MFA), uso de gerenciadores de senhas e a implementação correta de backups automatizados no modelo 3-2-1."
+
+--------------------------------------------------------------------------
+SLIDE 11: VIABILIDADE E RESULTADOS ESPERADOS (Tempo estimado: 10:30 - 11:30)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* Viabilidade: Infraestrutura computacional e biblioteca digital do IFSP. Sem necessidade de financiamento externo.
+* Resultados Esperados:
+  * Diagnóstico situacional de segurança da informação das pequenas e médias empresas.
+  * Desenvolvimento de um Guia Prático de Baixo Custo (checklists, políticas de privacidade, modelos de consentimento).
+  * Artigo científico para publicação e divulgação.
+
+[O que falar - Roteiro]
+"A viabilidade deste projeto é total, pois utilizamos a infraestrutura física e digital já disponível no IFSP, sem custos adicionais de software ou equipamentos. Quanto aos resultados, esperamos ir além do meio acadêmico, entregando um produto de impacto social direto: um modelo simplificado de adequação capaz de guiar pequenos empreendedores na proteção de seus dados sem comprometer suas finanças."
+
+--------------------------------------------------------------------------
+SLIDE 12: REFERÊNCIAS BIBLIOGRÁFICAS (Tempo estimado: 11:30 - 12:30)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* BRASIL. Lei nº 13.709, de 14 de agosto de 2018 (LGPD).
+* ABNT NBR ISO/IEC 27001 (Sistemas de Gestão de Segurança da Informação).
+* STALLINGS, William. Segurança de Computadores: Princípios e Práticas.
+* LAUDON, Kenneth C.; LAUDON, Jane P. Sistemas de Informação Gerenciais.
+* ANPD. Guia Orientativo para Definições dos Agentes de Tratamento.
+
+[O que falar - Roteiro]
+"Essas são as principais referências que fundamentam o nosso trabalho, combinando a legislação nacional (como a LGPD e os guias da ANPD), com os clássicos de sistemas de informação e segurança, como Stallings e Laudon, além das normas internacionais ISO 27001 para governança."
+
+--------------------------------------------------------------------------
+SLIDE 13: CONCLUSÃO (Tempo estimado: 12:30 - 13:00)
+--------------------------------------------------------------------------
+[Texto no Slide]
+* Conclusão: A adequação à LGPD não é apenas um desafio técnico-jurídico, mas um investimento estratégico em governança e confiança para pequenas empresas. O guia prático desenvolvido democratiza o acesso às boas práticas de segurança, mostrando que a proteção de dados é viável e fundamental para a longevidade dos negócios no cenário digital atual.
+* Contato & Agradecimentos: IFSP - Ciência da Computação.
+* Perguntas & Sugestões.
+
+[O que falar - Roteiro]
+"Para concluir, ressalto que a adequação à LGPD não deve ser vista apenas como um custo ou uma barreira burocrática, mas sim como uma oportunidade valiosa para as pequenas empresas profissionalizarem sua segurança e ganharem a confiança do mercado. Agradeço imensamente a atenção de todos e abro agora o espaço para perguntas e contribuições. Muito obrigado."
+

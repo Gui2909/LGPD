@@ -1,0 +1,517 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação: LGPD e a Segurança de Dados em Pequenas Empresas</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+
+    <div class="app-container">
+
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo-area">
+                <span class="badge">ADS</span>
+                <span class="project-area">Análise e Desenvolvimento de Sistemas</span>
+            </div>
+
+            <div class="header-controls">
+                <button id="btn-theme-toggle" class="icon-button" title="Alternar Tema (Claro/Escuro)">
+                    <svg viewBox="0 0 24 24" class="sun-icon">
+                        <path
+                            d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z" />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="moon-icon">
+                        <path
+                            d="M12.3 22h-.1c-5.5 0-10-4.5-10-10 0-4.8 3.5-8.9 8.2-9.8.6-.1 1.2.3 1.3.9.1.6-.3 1.2-.9 1.3-3.7.8-6.3 4-6.3 7.8 0 4.4 3.6 8 8 8 3.8 0 7-2.6 7.8-6.3.1-.6.7-.9 1.3-.9.6.1 1 .6.9 1.3-.9 4.7-5 8.2-9.8 8.2z" />
+                    </svg>
+                </button>
+                <button id="btn-fullscreen" class="icon-button" title="Tela Cheia">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar-container">
+            <div class="progress-bar" id="slide-progress"></div>
+        </div>
+
+        <!-- Slides Wrapper -->
+        <main class="slides-wrapper" id="slides-container">
+
+            <!-- SLIDE 1: CAPA -->
+            <section class="slide active" data-slide="1">
+                <div class="slide-content cover-slide">
+                    <div class="title-decor"></div>
+                    <span class="subtitle-tag">Projeto de Iniciação Científica</span>
+                    <h1>LGPD e a Segurança de Dados em Pequenas Empresas</h1>
+                    <p class="tagline">Desafios, Vulnerabilidades e Boas Práticas para Conformidade e Proteção da
+                        Informação</p>
+
+                    <div class="cover-footer">
+                        <div class="author-info">
+                            <span class="info-label">Apresentador:</span>
+                            <span class="info-value">Guilherme Bueno</span>
+                        </div>
+                        <div class="advisor-info">
+                            <span class="info-label">Área:</span>
+                            <span class="info-value">Análise e desenvolvimento de sistemas</span>
+                        </div>
+                        <div class="inst-info">
+                            <span class="info-label">Instituição:</span>
+                            <span class="info-value">IFSP</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 2: RELEVÂNCIA -->
+            <section class="slide" data-slide="2">
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <span class="slide-number">02</span>
+                        <h2>Relevância do Tema</h2>
+                    </div>
+                    <div class="grid-2col">
+                        <div class="card glass-card hover-glow">
+                            <div class="card-icon cyan-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h-3V9h5v8zm0-10h-2V5h2v2z" />
+                                </svg>
+                            </div>
+                            <h3>A Exigência da LGPD</h3>
+                            <p>A Lei Geral de Proteção de Dados (Lei nº 13.709/2018) é <strong>universal</strong>. Ela
+                                obriga organizações de todos os portes (incluindo micro, pequenas empresas e startups) a
+                                proteger os dados de seus clientes, parceiros e colaboradores sob pena de sanções
+                                severas.</p>
+                        </div>
+                        <div class="card glass-card hover-glow">
+                            <div class="card-icon purple-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-1 15h-2v-2h2v2zm0-4h-2V7h2v5z" />
+                                </svg>
+                            </div>
+                            <h3>A Vulnerabilidade de Pequenas e Médias Empresas</h3>
+                            <p>As pequenas e médias empresas são o motor da economia nacional, contudo, possuem <strong>limitações
+                                    operacionais drásticas</strong>: baixo orçamento de TI, falta de especialistas,
+                                ausência de políticas formais de segurança e alta suscetibilidade a engenharia social e
+                                ransomware.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 3: FUNDAMENTAÇÃO TEÓRICA -->
+            <section class="slide" data-slide="3">
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <span class="slide-number">03</span>
+                        <h2>Fundamentação Teórica</h2>
+                    </div>
+                    <div class="theory-framework">
+                        <div class="framework-diagram">
+                            <div class="pilar conf" title="Garantia de acesso restrito apenas a pessoal autorizado">
+                                <span class="pilar-title">Confidencialidade</span>
+                            </div>
+                            <div class="pilar center-shield" title="Segurança da Informação">
+                                <div class="shield-core">
+                                    <span>Segurança da Informação</span>
+                                </div>
+                            </div>
+                            <div class="pilar integ" title="Preservação da exatidão e completude dos dados">
+                                <span class="pilar-title">Integridade</span>
+                            </div>
+                            <div class="pilar disp"
+                                title="Acesso garantido aos usuários autorizados sempre que necessário">
+                                <span class="pilar-title">Disponibilidade</span>
+                            </div>
+                        </div>
+                        <div class="card glass-card text-box">
+                            <h4>Conformidade Legal & Controles de Proteção</h4>
+                            <ul>
+                                <li><strong>Tratamento de Dados:</strong> Princípios da finalidade, necessidade,
+                                    adequação e transparência.</li>
+                                <li><strong>Medidas de Segurança:</strong> Controles técnicos (criptografia, firewalls,
+                                    backups frequentes, MFA) e administrativos (políticas de privacidade, acordos de
+                                    sigilo, treinamentos).</li>
+                                <li><strong>O Fator Humano:</strong> A conscientização é o controle mais eficiente de
+                                    menor custo.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 4: ATORES E FLEXIBILIZAÇÃO -->
+            <section class="slide" data-slide="4">
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <span class="slide-number">04</span>
+                        <h2>Atores e Flexibilização para Pequenas e Médias Empresas</h2>
+                    </div>
+                    <div class="grid-2col">
+                        <div class="card glass-card">
+                            <h3>Os Agentes de Tratamento</h3>
+                            <ul class="bullet-list-small" style="margin-top: 0.25rem;">
+                                <li><strong>Controlador:</strong> Quem toma as decisões referentes ao tratamento de dados pessoais.</li>
+                                <li><strong>Operador:</strong> Quem realiza o tratamento em nome do controlador (ex: prestadores de nuvem ou contabilidade).</li>
+                                <li><strong>Titular:</strong> A pessoa física a quem se referem os dados.</li>
+                            </ul>
+                        </div>
+                        <div class="card glass-card border-cyan">
+                            <div class="badge-accent cyan-bg">Resolução CD/ANPD nº 2/2022</div>
+                            <h3>Dispensa do Encarregado (DPO)</h3>
+                            <p>A ANPD estabeleceu regras de simplificação para agentes de pequeno porte:</p>
+                            <ul class="bullet-list-small" style="margin-top: 0.5rem;">
+                                <li><strong>Dispensa de Indicação:</strong> Dispensa de indicar um DPO formal, devendo apenas prover canal de contato com titulares.</li>
+                                <li><strong>Prazos em Dobro:</strong> Prazos duplicados para responder a solicitações e simplificação de relatórios (DPIA).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 5: SANÇÕES E INCIDENTES -->
+            <section class="slide" data-slide="5">
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <span class="slide-number">05</span>
+                        <h2>Sanções da LGPD e Riscos Reais</h2>
+                    </div>
+                    <div class="grid-2col">
+                        <div class="card glass-card border-purple">
+                            <div class="badge-accent purple-bg">Penalidades Administrativas</div>
+                            <h3>Sanções Previstas (Art. 52)</h3>
+                            <ul class="bullet-list-small" style="margin-top: 0.25rem;">
+                                <li><strong>Advertências:</strong> Com prazo para adoção de medidas corretivas.</li>
+                                <li><strong>Multas Simples:</strong> De até 2% do faturamento, limitada a R$ 50 milhões por infração.</li>
+                                <li><strong>Bloqueio/Eliminação:</strong> Interrupção do uso dos dados ou exclusão forçada das informações coletadas.</li>
+                            </ul>
+                        </div>
+                        <div class="card glass-card glow-red">
+                            <span class="accent-title">O RISCO CIBERNÉTICO</span>
+                            <h3>Ataques e Sequestro de Dados</h3>
+                            <p>Mais do que multas legais, pequenas e médias empresas enfrentam a realidade do mercado:</p>
+                            <ul class="bullet-list-small" style="margin-top: 0.5rem;">
+                                <li><strong>Ransomware:</strong> Invasões cibernéticas que sequestram arquivos e paralisam a operação diária.</li>
+                                <li><strong>Perda de Reputação:</strong> Danos severos de imagem e quebra de contratos de parceiros devido a vazamentos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 6: OBJETIVOS (Originally Slide 4) -->
+            <section class="slide" data-slide="6">
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <span class="slide-number">06</span>
+                        <h2>Problema e Objetivos</h2>
+                    </div>
+
+                    <div class="problem-box glass-card glow-red">
+                        <span class="accent-title">O PROBLEMA</span>
+                        <p>Como as pequenas empresas podem contornar a escassez de recursos humanos e financeiros para
+                            implementar medidas de segurança da informação e governança que atendam aos rigorosos
+                            requisitos legais da LGPD?</p>
+                    </div>
+
+                    <div class="grid-2col" style="margin-top: var(--grid-gap);">
+                        <div class="card glass-card">
+                            <h3>Objetivo Geral</h3>
+                            <p class="highlight-p">Analisar os desafios enfrentados por pequenas empresas na adequação à
+                                LGPD, identificando as suas principais vulnerabilidades e propondo um <strong>guia
+                                    prático de adequação de baixo custo</strong>.</p>
+                        </div>
+                        <div class="card glass-card">
+                            <h3>Objetivos Específicos</h3>
+                            <ul class="bullet-list-small">
+                                <li>Avaliar o nível de maturidade em segurança da informação das pequenas e médias empresas.</li>
+                                <li>Mapear as vulnerabilidades operacionais e técnicas mais comuns.</li>
+                                <li>Elaborar um framework prático e templates de documentos de conformidade.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 7: METODOLOGIA (Originally Slide 5) -->
+            <section class="slide" data-slide="7">
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <span class="slide-number">07</span>
+                        <h2>Metodologia de Pesquisa</h2>
+                    </div>
+
+                    <div class="methodology-flow">
+                        <div class="method-step active-step">
+                            <div class="step-num">1</div>
+                            <h4>Pesquisa Bibliográfica</h4>
+                            <p>Bases científicas e manuais da ANPD</p>
+                        </div>
+                        <div class="method-arrow">➔</div>
+                        <div class="method-step active-step">
+                            <div class="step-num">2</div>
+                            <h4>Análise Documental</h4>
+                            <p>Diretrizes legais e relatórios de incidentes</p>
+                        </div>
+                        <div class="method-arrow">➔</div>
+                        <div class="method-step active-step">
+                            <div class="step-num">3</div>
+                            <h4>Pesquisa de Campo</h4>
+                            <p>Aplicação de questionários e entrevistas</p>
+                        </div>
+                        <div class="method-arrow">➔</div>
+                        <div class="method-step active-step">
+                            <div class="step-num">4</div>
+                            <h4>Diagnóstico e Guia</h4>
+                            <p>Mapeamento de riscos e guia prático</p>
+                        </div>
+                    </div>
+
+                    <div class="card glass-card" style="margin-top: var(--grid-gap);">
+                        <p style="text-align: center; font-size: 1.05rem;">
+                            Pesquisa de caráter <strong>exploratório e descritivo</strong>, com uma abordagem de
+                            natureza <strong>qualitativa e quantitativa (mista)</strong> para confrontar a teoria
+                            regulatória com a realidade prática do mercado.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 8: COLETA DE DADOS (Originally Slide 6) -->
+            <section class="slide" data-slide="8">
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <span class="slide-number">08</span>
+                        <h2>Método de Coleta de Dados</h2>
+                    </div>
+
+                    <div class="grid-2col gap-lg">
+                        <div class="card glass-card border-cyan">
+                            <div class="badge-accent cyan-bg">Coleta Secundária</div>
+                            <h3>Revisão e Casos Reais</h3>
+                            <ul class="clean-list">
+                                <li><strong>Fontes:</strong> Google Scholar, SciELO, IEEE Xplore, e portais oficiais da
+                                    ANPD.</li>
+                                <li><strong>Objetivo:</strong> Consolidar a base jurídica, guias técnicos de
+                                    conformidade e o histórico de incidentes em pequenas empresas divulgados
+                                    publicamente.</li>
+                            </ul>
+                        </div>
+
+                        <div class="card glass-card border-purple">
+                            <div class="badge-accent purple-bg">Coleta Primária</div>
+                            <h3>Pesquisa Empírica de Campo</h3>
+                            <ul class="clean-list">
+                                <li><strong>Instrumento 1:</strong> Questionário quantitativo estruturado (Google Forms)
+                                    enviado a gestores e técnicos, avaliando infraestrutura, processos e conhecimento da
+                                    LGPD.</li>
+                                <li><strong>Instrumento 2:</strong> Entrevistas qualitativas semiestruturadas com
+                                    proprietários de pequenas e médias empresas para captar os gargalos financeiros e operacionais reais.</li>
+                                <li><strong>Ética & LGPD:</strong> Termo de Consentimento (TCLE) assinado pelos
+                                    participantes, garantia de anonimato completo e restrição rígida de dados pessoais
+                                    na coleta.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 9: PLANO DE TRABALHO (Originally Slide 7) -->
+            <section class="slide" data-slide="9">
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <span class="slide-number">09</span>
+                        <h2>Plano de Trabalho & Cronograma</h2>
+                    </div>
+
+                    <div class="timeline-container">
+                        <div class="timeline-bar">
+                            <div class="timeline-progress"></div>
+                        </div>
+                        <div class="timeline-nodes">
+                            <div class="timeline-node">
+                                <div class="node-dot"></div>
+                                <span class="node-time">Meses 1 - 2</span>
+                                <span class="node-desc">Revisão Teórica & Planejamento</span>
+                            </div>
+                            <div class="timeline-node">
+                                <div class="node-dot"></div>
+                                <span class="node-time">Meses 3 - 4</span>
+                                <span class="node-desc">Criação & Piloto do Questionário</span>
+                            </div>
+                            <div class="timeline-node">
+                                <div class="node-dot"></div>
+                                <span class="node-time">Mês 5</span>
+                                <span class="node-desc">Aplicação & Relatório Parcial</span>
+                            </div>
+                            <div class="timeline-node">
+                                <div class="node-dot"></div>
+                                <span class="node-time">Meses 6 - 7</span>
+                                <span class="node-desc">Análise de Dados & Vulnerabilidades</span>
+                            </div>
+                            <div class="timeline-node">
+                                <div class="node-dot"></div>
+                                <span class="node-time">Meses 8 - 9</span>
+                                <span class="node-desc">Criação do Guia de Boas Práticas</span>
+                            </div>
+                            <div class="timeline-node">
+                                <div class="node-dot"></div>
+                                <span class="node-time">Mês 10</span>
+                                <span class="node-desc">Relatório Final & Divulgação</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 10: O GUIA PRÁTICO PROPOSTO -->
+            <section class="slide" data-slide="10">
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <span class="slide-number">10</span>
+                        <h2>O Guia Prático de Baixo Custo</h2>
+                    </div>
+                    <div class="grid-2col">
+                        <div class="card glass-card border-cyan">
+                            <div class="badge-accent cyan-bg">Controles Administrativos</div>
+                            <h3>Processos & Governança</h3>
+                            <ul class="bullet-list-small" style="margin-top: 0.25rem;">
+                                <li><strong>Mapeamento de Dados (Data Mapping):</strong> Identificar quais dados pessoais a empresa coleta, onde os armazena e quem tem acesso.</li>
+                                <li><strong>Templates de Conformidade:</strong> Modelos simplificados de Políticas de Privacidade e Termos de Consentimento adaptáveis.</li>
+                                <li><strong>Treinamento Rápido:</strong> Ações simples de conscientização de colaboradores contra phishing e engenharia social.</li>
+                            </ul>
+                        </div>
+                        <div class="card glass-card border-purple">
+                            <div class="badge-accent purple-bg">Controles Técnico</div>
+                            <h3>Segurança Cibernética Prática</h3>
+                            <ul class="bullet-list-small" style="margin-top: 0.25rem;">
+                                <li><strong>Autenticação Forte (MFA):</strong> Ativação de verificação em duas etapas em todos os e-mails e sistemas corporativos.</li>
+                                <li><strong>Gestão de Credenciais:</strong> Uso de gerenciadores de senhas seguros (Password Managers) e política de senhas fortes.</li>
+                                <li><strong>Backups Automatizados:</strong> Cópia de segurança periódica e offline (princípio de backup 3-2-1) contra ransomware.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 11: VIABILIDADE E RESULTADOS ESPERADOS (Originally Slide 8) -->
+            <section class="slide" data-slide="11">
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <span class="slide-number">11</span>
+                        <h2>Viabilidade e Resultados Esperados</h2>
+                    </div>
+                    <div class="grid-2col">
+                        <div class="card glass-card">
+                            <h3>Viabilidade</h3>
+                            <ul class="bullet-list-small">
+                                <li><strong>Infraestrutura:</strong> Laboratórios de informática e biblioteca digital do
+                                    IFSP.</li>
+                                <li><strong>Software:</strong> Uso exclusivo de ferramentas open-source para análise e
+                                    coleta.</li>
+                                <li><strong>Custos:</strong> Ausência de financiamento externo necessário; execução
+                                    remota e presencial direta.</li>
+                            </ul>
+                        </div>
+                        <div class="card glass-card">
+                            <h3>Resultados Esperados</h3>
+                            <ul class="bullet-list-small">
+                                <li><strong>Diagnóstico de TI:</strong> Mapeamento real do nível de maturidade em
+                                    segurança das pequenas e médias empresas.</li>
+                                <li><strong>Guia de Boas Práticas:</strong> Roteiro contendo checklist simplificado,
+                                    modelos de consentimento, políticas de privacidade adaptáveis e ações de segurança
+                                    física/digital.</li>
+                                <li><strong>Artigo Científico:</strong> Publicação em conferência acadêmica.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 12: REFERÊNCIAS (Originally Slide 9) -->
+            <section class="slide" data-slide="12">
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <span class="slide-number">12</span>
+                        <h2>Referências Bibliográficas</h2>
+                    </div>
+                    <div class="references-list glass-card">
+                        <ol>
+                            <li>BRASIL. <strong>Lei nº 13.709, de 14 de agosto de 2018</strong>. Lei Geral de Proteção
+                                de Dados Pessoais (LGPD). Diário Oficial da União, Brasília, DF, 15 ago. 2018.</li>
+                            <li>ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. <strong>ABNT NBR ISO/IEC 27001</strong>:
+                                Tecnologia da informação — Técnicas de segurança — Sistemas de gestão da segurança da
+                                informação — Requisitos.</li>
+                            <li>STALLINGS, William. <strong>Segurança de Computadores: Princípios e Práticas</strong>.
+                                Rio de Janeiro: Elsevier, 2018.</li>
+                            <li>LAUDON, Kenneth C.; LAUDON, Jane P. <strong>Sistemas de Informação Gerenciais</strong>.
+                                11. ed. São Paulo: Pearson Education, 2014.</li>
+                            <li>ANPD (Autoridade Nacional de Proteção de Dados). <strong>Guia Orientativo para
+                                    Definições dos Agentes de Tratamento de Dados Pessoais e do Encarregado</strong>.
+                                Brasília: ANPD, 2021.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 13: CONCLUSÃO (Originally Slide 10) -->
+            <section class="slide" data-slide="13">
+                <div class="slide-content cover-slide conclusion-slide">
+                    <div class="title-decor"></div>
+                    <span class="subtitle-tag">Encerramento da Apresentação</span>
+                    <h2>Conclusão & Perguntas</h2>
+                    <p class="closing-statement">A adequação à LGPD é um desafio técnico e legal, mas representa uma
+                        oportunidade de ouro para que as pequenas empresas construam relacionamentos de confiança
+                        baseados em transparência e ética digital.</p>
+
+                    <div class="contact-details glass-card">
+                        <span>Muito Obrigado!</span>
+                        <p>Dúvidas, críticas e sugestões?</p>
+                        <small>IFSP - Análise e desenvolvimento de sistemas</small>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Navigation Footer -->
+        <footer class="app-footer">
+            <button class="nav-btn" id="btn-prev" disabled>
+                <svg viewBox="0 0 24 24">
+                    <path d="M15.41 7.41L14 6l-6 6 6 6 14-1.41L15.41 7.41z" />
+                </svg> Anterior
+            </button>
+
+            <div class="slide-dots" id="dots-container"></div>
+
+            <button class="nav-btn" id="btn-next">
+                Próximo <svg viewBox="0 0 24 24">
+                    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" />
+                </svg>
+            </button>
+        </footer>
+
+    </div>
+
+    <!-- JS Logic -->
+    <script src="script.js"></script>
+</body>
+
+</html>
