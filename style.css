@@ -446,11 +446,40 @@ body {
     justify-content: center;
     text-align: center;
     font-family: var(--font-heading);
-    font-weight: 600;
-    font-size: 1rem;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     cursor: help;
     transition: transform 0.2s ease;
+}
+
+.pilar-letter {
+    font-size: 2.4rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.pilar-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.95rem;
+    font-weight: 700;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+}
+
+.conf .pilar-title {
+    bottom: calc(100% + 10px);
+    color: var(--primary-cyan);
+}
+
+.integ .pilar-title {
+    top: calc(100% + 10px);
+    color: var(--primary-purple);
+}
+
+.disp .pilar-title {
+    top: calc(100% + 10px);
+    color: var(--accent-red);
 }
 
 .pilar:hover {
@@ -1002,7 +1031,12 @@ body {
     .pilar.conf, .pilar.integ, .pilar.disp {
         width: 90px;
         height: 90px;
-        font-size: 0.85rem;
+    }
+    .pilar-letter {
+        font-size: 1.8rem;
+    }
+    .pilar-title {
+        font-size: 0.8rem;
     }
     .pilar.center-shield {
         width: 105px;
