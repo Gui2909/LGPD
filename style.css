@@ -487,7 +487,7 @@ body {
 }
 
 .pilar.conf {
-    top: 0;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
     width: 110px;
@@ -501,8 +501,8 @@ body {
 }
 
 .pilar.integ {
-    bottom: 0;
-    left: 0;
+    top: 175px;
+    left: 10px;
     width: 110px;
     height: 110px;
     background: radial-gradient(circle, rgba(var(--primary-purple-rgb), 0.22), rgba(var(--primary-purple-rgb), 0.05));
@@ -514,8 +514,8 @@ body {
 }
 
 .pilar.disp {
-    bottom: 0;
-    right: 0;
+    top: 175px;
+    right: 10px;
     width: 110px;
     height: 110px;
     background: radial-gradient(circle, rgba(244, 63, 94, 0.22), rgba(244, 63, 94, 0.05));
@@ -527,9 +527,9 @@ body {
 }
 
 .pilar.center-shield {
-    top: 50%;
+    top: 110px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     width: 130px;
     height: 130px;
     background: rgba(255, 255, 255, 0.04);
@@ -538,7 +538,7 @@ body {
     padding: 10px;
 }
 .pilar.center-shield:hover {
-    transform: translate(-50%, -50%) scale(1.06);
+    transform: translateX(-50%) scale(1.06);
 }
 
 .shield-core {
@@ -1028,7 +1028,20 @@ body {
         width: 260px;
         height: 260px;
     }
-    .pilar.conf, .pilar.integ, .pilar.disp {
+    .pilar.conf {
+        top: 7px;
+        width: 90px;
+        height: 90px;
+    }
+    .pilar.integ {
+        top: 142px;
+        left: 7px;
+        width: 90px;
+        height: 90px;
+    }
+    .pilar.disp {
+        top: 142px;
+        right: 7px;
         width: 90px;
         height: 90px;
     }
@@ -1039,6 +1052,7 @@ body {
         font-size: 0.8rem;
     }
     .pilar.center-shield {
+        top: 90px;
         width: 105px;
         height: 105px;
     }
